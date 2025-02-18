@@ -59,7 +59,7 @@ body {
     position: absolute;
     height: 50%;
     top: 0;
-    transform: translateY(-48%);
+    transform: translateY(-37%);
 }
 
 #wavediv{
@@ -76,9 +76,9 @@ body {
     position: absolute;
     height: 50px;
     width: 150px;
-    top: 22%;
+    top: 27.5%;
     right: 1%;
-    background-color: #DBC4B5;
+    background-color: #D6BBA9;
     border-radius: 40px;
     z-index: 99999999999999999999999;
 }
