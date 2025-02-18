@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    /* Essential for Lenis */
+    position: relative;
+}
+
+#pages-container {
+    height: auto;
+    /* Let content define height */
+    position: relative;
+}
+
+#page1,
+#page2 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#spline {
+    z-index: 9;
+    position: absolute;
+    height: 99%;
+}
+
+.cover {
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 82%;
+    right: 1%;
+    z-index: 9920;
+    background-color: #E5DCDC;
+    border-radius: 40px;
+    display: none;
+}
+
+#page2 {
+
+    background-color: #96480c;
+}
+
+#waves{
+    position: absolute;
+    height: 50%;
+    top: 0;
+    transform: translateY(-48%);
+}
+
+#wavediv{
+    margin-top: -6%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(180deg,#f0eaea, #96480c);    z-index: 99;
+
+}
