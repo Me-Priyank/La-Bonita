@@ -59,7 +59,7 @@ body {
     position: absolute;
     height: 50%;
     top: 0;
-    transform: translateY(-37%);
+    transform: translateY(-32%);
 }
 
 #wavediv{
@@ -67,7 +67,7 @@ body {
     height: 100%;
     width: 100%;
     position: absolute;
-    background-image: linear-gradient(180deg,#f0eaea, #96480c); 
+    background-image: linear-gradient(180deg,#ECE5E5, #96480c); 
    z-index: 99;
 
 }
@@ -76,9 +76,9 @@ body {
     position: absolute;
     height: 50px;
     width: 150px;
-    top: 27.5%;
+    top: 30%;
     right: 1%;
-    background-color: #D6BBA9;
+    background-color: #D1B3A0;
     border-radius: 40px;
     z-index: 99999999999999999999999;
 }
